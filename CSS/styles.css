@@ -1,0 +1,12 @@
+/* стандартні значення по замовчуванню */
+body{
+    font-family: 'Roboto', 'Open Sans', 'Lato', 'Montserrat', 'Noto Sans', 'Segoe UI', sans-serif;
+    background-color: #FFF;
+    color: #434455;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
