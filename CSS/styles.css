@@ -10,3 +10,28 @@ a{
 ul{
     list-style-type: none;
 }
+.header-logo{
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.header-logo-studio{
+    font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2E2F42;
+}
+.header-nav-link{
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2E2F42;
+}
