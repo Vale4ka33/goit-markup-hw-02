@@ -1,6 +1,6 @@
 /* стандартні значення по замовчуванню */
 body{
-    font-family: "Roboto", "Open Sans", "Lato", "Montserrat", "Noto Sans", "Segoe UI", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #FFF;
     color: #434455;
 }
