@@ -91,15 +91,15 @@ ul{
 /* < !-- main - section-2 --> */
 .about-strategy-name{
     color: #2E2F42;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.about-punctuality-nane{
+.about-punctuality-name{
     color: #2E2F42;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -107,7 +107,7 @@ ul{
 }
 .about-diligence-name{
     color: #2E2F42;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -115,7 +115,7 @@ ul{
 }
 .about-technologies-name{
     color: #2E2F42;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -123,25 +123,25 @@ ul{
 }
 .about-strategy-text{
     color: #434455;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .about-punctuality-text{
     color: #434455;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .about-diligence-text{
     color: #434455;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .about-technologies-text{
     color: #434455;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
