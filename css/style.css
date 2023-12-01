@@ -1,73 +1,85 @@
 /* стандартні значення по замовчуванню */
-body{
+body {
     font-family: "Roboto", sans-serif;
     background-color: #FFF;
     color: #434455;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style-type: none;
 }
+
 /* < !-- header --> */
-.header-logo{
+.header-logo {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.17; 
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.header-logo-studio{
+
+.header-logo-studio {
     font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #2E2F42;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
 }
-.header-nav-link{
+
+.header-nav-link {
     font-family: Roboto;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#2E2F42;
+    color: #2E2F42;
 }
+
 .header-nav-link:hover,
 .header-nav-link:focus {
     color: #404BBF;
 }
-.address{
-font-style: normal;
+
+.address {
+    font-style: normal;
 }
-.address-list-item{
+
+.address-list-item {
     font-family: Roboto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
 }
+
 .address-list-item:hover,
-.address-list-item:focus{
+.address-list-item:focus {
     color: #404BBF;
 }
+
 /* < !-- main section-1 --> */
-.main-section{
+.main-section {
     background-color: #2E2F42;
 }
-.main-section-name{
+
+.main-section-name {
     font-family: Roboto;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        color: #FFFFFF;
-        text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-align: center;
 }
-.button{
+
+.button {
     color: #FFFFFF;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
@@ -76,12 +88,14 @@ font-style: normal;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
 }
+
 .button:hover,
-.button:focus{
+.button:focus {
     background-color: #404BBF;
 }
+
 /* < !-- main - section-2 --> */
-.about-name{
+.about-name {
     color: #2E2F42;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -89,17 +103,20 @@ font-style: normal;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.about-text{
+
+.about-text {
     color: #434455;
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 /* < !-- main - section-3 --> */
-.our-team{
+.our-team {
     background-color: #F4F4FD;
 }
-.our-team-name{
+
+.our-team-name {
     color: #2E2F42;
     font-family: Roboto;
     font-size: 36px;
@@ -109,10 +126,12 @@ font-style: normal;
     text-transform: capitalize;
     text-align: center;
 }
-.our-team-photo{
+
+.our-team-photo {
     background-color: #FFFFFF;
 }
-.our-team-item{
+
+.our-team-item {
     color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
@@ -120,14 +139,16 @@ font-style: normal;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.our-team-text{
+
+.our-team-text {
     color: #434455;
     font-family: Roboto;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 /* < !--main - section-4--> */
-.our-portfolio-name{
+.our-portfolio-name {
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
@@ -137,7 +158,8 @@ font-style: normal;
     color: #2E2F42;
     text-align: center;
 }
-.our-portfolio-item{
+
+.our-portfolio-item {
     color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
@@ -145,14 +167,16 @@ font-style: normal;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.our-portfolio-text{
+
+.our-portfolio-text {
     color: #434455;
     font-family: Roboto;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 /* < !-- footer --> */
-.footer-logo{
+.footer-logo {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -161,7 +185,8 @@ font-style: normal;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.footer-logo-studio{
+
+.footer-logo-studio {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -169,17 +194,15 @@ font-style: normal;
     text-transform: uppercase;
     color: #F4F4FD;
 }
-.footer-text{
+
+.footer-text {
     font-family: Roboto;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
-.footer{
+
+.footer {
     background: #2E2F42;
 }
-
-
-
-   
