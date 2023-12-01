@@ -40,26 +40,18 @@ ul{
 .header-nav-link:focus {
     color: #404BBF;
 }
-.address-mail{
+.address{
+font-style: normal;
+}
+.address-list-item{
     font-family: Roboto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
 }
-.address-tel{
-    font-family: Roboto;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    font-style: normal;
-}
-.address-mail:hover,
-.address-mail:focus{
-    color: #404BBF;
-}
-.address-tel:hover,
-.address-tel:focus {
+.address-list-item:hover,
+.address-list-item:focus{
     color: #404BBF;
 }
 /* < !-- main section-1 --> */
@@ -89,7 +81,7 @@ ul{
     background-color: #404BBF;
 }
 /* < !-- main - section-2 --> */
-.about-strategy-name{
+.about-name{
     color: #2E2F42;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -97,49 +89,7 @@ ul{
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.about-punctuality-name{
-    color: #2E2F42;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.about-diligence-name{
-    color: #2E2F42;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.about-technologies-name{
-    color: #2E2F42;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.about-strategy-text{
-    color: #434455;
-    font-family: "Roboto", sans-serif;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.about-punctuality-text{
-    color: #434455;
-    font-family: "Roboto", sans-serif;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.about-diligence-text{
-    color: #434455;
-    font-family: "Roboto", sans-serif;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.about-technologies-text{
+.about-text{
     color: #434455;
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
@@ -162,7 +112,7 @@ ul{
 .our-team-photo{
     background-color: #FFFFFF;
 }
-.our-team-mark{
+.our-team-item{
     color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
@@ -170,55 +120,12 @@ ul{
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.our-team-tom{
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.our-team-camila{
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.our-team-daniel{
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.our-team-mark-profession{
+.our-team-text{
     color: #434455;
     font-family: Roboto;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.our-team-tom-profession{
-    color: #434455;
-    font-family: Roboto;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.our-team-camila-profession{
-    color: #434455;
-    font-family: Roboto;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.our-team-daniel-profession{
-    color: #434455;
-    font-family: Roboto;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
 /* < !--main - section-4--> */
 .our-portfolio-name{
     font-family: Roboto;
@@ -230,7 +137,7 @@ ul{
     color: #2E2F42;
     text-align: center;
 }
-.our-portfolio-banking-app{
+.our-portfolio-item{
     color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
@@ -238,78 +145,7 @@ ul{
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.our-portfolio-cashless-payment{
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.our-portfolio-meditation-app{
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.our-portfolio-taxi-service{
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.our-portfolio-screen-illustrations{
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.our-portfolio-online-courses{
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-    
-.our-portfolio-banking-app-text{
-    color: #434455;
-    font-family: Roboto;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.our-portfolio-cashless-payment-text{
-    color: #434455;
-    font-family: Roboto;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.our-portfolio-meditation-app-text{
-    color: #434455;
-    font-family: Roboto;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.our-portfolio-taxi-service-text{
-    color: #434455;
-    font-family: Roboto;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.our-portfolio-screen-illustrations-text{
-    color: #434455;
-    font-family: Roboto;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.our-portfolio-online-courses-text{
+.our-portfolio-text{
     color: #434455;
     font-family: Roboto;
     line-height: 1.5;
